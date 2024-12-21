@@ -6,6 +6,7 @@ const db = require('quick.db')
 const p = new db.table("Prefix")
 const logembed = new db.table("embedlog")
 const { Player } = require('discord-player');
+const port = process.env.PORT || 1000;
 ms = require("ms")
 const color = config.app.color
 const client = new Client({
